@@ -73,3 +73,42 @@ No Python, as variáveis são sempre passadas por **referência**, e não por va
 Por exemplo, se for chamado o método `fillTrash()` que preenche a variável `trash`, tanto o resultado do método quanto a variável assumirão o valor alterado.
 
 ![](/Imagens/VarPassRef.png)
+
+No Python não é preciso declarar o tipo da variável.
+
+Utilizamos 3 tipos de dados:
+
+```Python
+Inteiros:           10, 2, 50000
+Ponto Flutuante:    3.14, 1.2345
+String:             "A", "R2D2"
+```
+
+#### 2.1. Tipagem Dinâmica
+
+O Python permite que você faça a atribuição de uma variável sem informar o seu tipo, apenas passando o seu valor.
+
+```Python
+a=10
+type(a)
+# output
+<class 'int'>
+```
+
+#### 2.2. Tipagem Forte
+
+Por não precisar que o tipo da variável seja declarado, para o Python é essencial que a variável receba valores e chamadas de métodos consistentes com o valor com o qual é iniciada.
+
+por exemplo, imagine que tentemos somar um inteiro `varInt` com uma string `varString`, obteremos o seguinte erro:
+
+```Python
+varInt = 10
+varString = 'Texto'
+varInt + varString
+# output
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    varInt + varString
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+---
