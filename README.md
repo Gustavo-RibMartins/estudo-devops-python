@@ -21,7 +21,7 @@ Mac OS e Linux já vem com Python instalado por default, mas é possível instal
 
 Sintaxe
 ```python
-type(<var>) # mostra a tipagem da variavel
+type(<var>) # mostra a tipagem da variável
 ```
 Exemplo
 ```python
@@ -36,7 +36,7 @@ Retorno
 
 Sintaxe
 ```python
-dir(<var>) # mostra os metodos aplicaveis a variavel
+dir(<var>) # mostra os métodos aplicáveis a variável
 ```
 Exemplo
 ```python
@@ -111,4 +111,15 @@ Traceback (most recent call last):
     varInt + varString
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ```
+Entretanto, o tipo da variável pode mudar ao longo do tempo:
+```Python
+a = 10
+type(a)
+<class 'int'>
+# reatribuição
+a = '10'
+type(a)
+<class 'str'>
+```
+
 ---
