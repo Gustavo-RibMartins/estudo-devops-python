@@ -65,8 +65,6 @@ upper() method of builtins.str instance
     Return a copy of the string converted to uppercase.
 ```
 ---
-
-
 ### 2. Variáveis
 
 No Python, as variáveis são sempre passadas por **referência**, e não por valor.
@@ -123,3 +121,17 @@ type(a)
 ```
 
 ---
+### 3. Operadores
+
+#### 3.1. Aritméticos
+
+![Operadores Aritméticos](./Imagens/OperAritmeticos.png "Operadores Aritméticos")
+
+#### 3.2. Relacionais
+
+![Operadores Relacionais](./Imagens/OperRelacionais.png "Operadores Relacionais")
+
+#### 3.3. Lógicos
+
+![Operadores Lógicos](./Imagens/OperLogicos.png "Operadores Lógicos")
+
