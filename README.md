@@ -303,3 +303,60 @@ Sobrenome = Maria
 Apelido = Aninha
 DataNas = 02/06/1996
 ```
+---
+### 7. Módulos
+
+**Módulo random**
+```python
+import random
+
+# Retorna um número aleatório entre 0 e 1
+print(random.random())
+
+# Retorna um inteiro entre o primeiro e segundo parametro
+print(random.randint(10, 20))
+
+# Retorna um elemento de uma lista
+x = ['Brasil', 'Chile', 'USA', 'Japão']
+print(random.choice(x))
+
+# Embaralha os itens de uma lista
+x = ['Brasil', 'Chile', 'USA', 'Japão']
+print(x)
+random.shuffle(x)
+print(x)
+
+# output
+
+0.5341967575398869
+17
+USA
+['Brasil', 'Chile', 'USA', 'Japão']
+['USA', 'Brasil', 'Chile', 'Japão']
+```
+
+**Módulo string
+```python
+import string
+
+# Retorna todos os caracteres especiais
+# pode ser usado para validar se o usuário digitou pontos
+print(string.punctuation)
+
+# Retorna todos os digitos de 0 a 9
+# pode ser usado para validar números, como cpf
+print(string.digits)
+
+# Retorna hexadecimais
+print(string.hexdigits)
+
+# Para Camel Case
+print(string.capwords("teste de capitalize no curso"))
+
+# output
+
+!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+0123456789
+0123456789abcdefABCDEF
+Teste De Capitalize No Curso
+```
