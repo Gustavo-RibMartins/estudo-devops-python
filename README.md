@@ -135,3 +135,61 @@ type(a)
 
 ![Operadores Lógicos](./Imagens/OperLogicos.png "Operadores Lógicos")
 
+---
+### 4. Entrada e Saída de Dados
+
+Para receber dados de entrada, utiliza=se a função `input()`, que retorna uma string:
+
+```python
+a = input("Digite um número inteiro: ")
+b = input("Digite outro número inteiro: ")
+
+print(a + b)
+
+Supondo que a = 20 e b = 35, a saída é: 2035
+```
+
+Podemos imprimir dados separando os argumentos na função `print()` por vírgula:
+
+```python
+print("Imprimindo", "com", "Python")
+
+# Saída
+Imprimindo com Python
+```
+
+**Impressão com marcadores**
+
+```python
+a = 10
+print("Tirei %d na prova" %a)
+
+# Saída
+Tirei 10 na prova
+```
+
+Os marcadores são:
+- %d = para inteiros
+- %s = para strings
+- %f = para ponto flutuante
+
+Para ponto flutuante, pode-se definir o número de casas decimais substituindo o valor de n em `%.nf`
+
+```python
+print("A nota é: %.2f" %8.9876)
+
+# Saída
+A nota é: 8.99
+```
+
+Também é possível usar vários marcadores usando listas:
+
+```python
+print("inteiro: %d, float: %.3f, string: %s" %(2, 3.12345, "texto"))
+
+# Saída
+inteiro: 2, float: 3.123, string: texto
+```
+
+---
+### 5. Estrutura Condicional
