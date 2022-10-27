@@ -192,4 +192,74 @@ inteiro: 2, float: 3.123, string: texto
 ```
 
 ---
-### 5. Estrutura Condicional
+### 5. Estrutura de Controle
+
+#### 5.1. Condicional
+
+O condicional no Python é identado e a sintaxe é a seguinte:
+```python
+if <condição 1>:
+    <comando>
+elif <condição 2>:
+    <comando>
+else:
+    <comando>
+```
+Exemplo:
+```python
+nota = 8
+media = 6
+
+if nota >= media:
+    print("Aprovado!")
+else:
+    print("Reprovado!")
+```
+
+#### 5.2. Laços de Repetição
+
+Sintaxe `for()` loop:
+
+```python
+for(<variavel>) in range(n):
+  <comandos>
+```
+Exemplo:
+```python
+for(x) in range(10):
+  print(x)
+
+# Saída
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+# Perceba que o range(10) vai de 0 a 9
+```
+Também é possível fazer um laço de repetição com `while()`. A sintaxe é a seguinte:
+```python
+while <condição para x>:
+  <comandos>
+  <incremento de x>
+```
+Exemplo:
+```python
+y= 5
+while y < 10:
+    print(y)
+    y = y + 1
+
+# Saída
+5
+6
+7
+8
+9
+```
+---
