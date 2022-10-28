@@ -390,3 +390,26 @@ print("Texto para ser fatiado"[0:10:3])
 Ttpa
 ```
 ---
+### 9. Manipulação de arquivos de texto
+
+Em python, a leitura de arquivos já é embutida na linguagem, não é preciso importar nenhum módulo.
+
+Exemplos:
+```python
+def ler_arquivo(nome_arquivo):
+    arquivo = open(nome_arquivo, 'r')
+    for linha in arquivo:
+        print(linha)
+
+    arquivo.close()
+
+def salvar_arquivo(nome_arquivo, texto):
+    arquivo = open(nome_arquivo, 'w')
+    arquivo.write(texto)
+
+    arquivo.close()
+
+salvar_arquivo('Curso-Impacta/Aula09-Teste.txt', 'Teste de escrita')
+ler_arquivo('Curso-Impacta/Aula09-Pessoas.txt')
+```
+---
