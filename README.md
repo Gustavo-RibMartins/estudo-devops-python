@@ -360,3 +360,33 @@ print(string.capwords("teste de capitalize no curso"))
 0123456789abcdefABCDEF
 Teste De Capitalize No Curso
 ```
+---
+### 8. Strings
+
+Pode se utilizar aspas simples, duplas ou **triplas**.
+
+- Para "fatiar" uma string
+```python
+# capturar o que está no índice 0 a 10
+print("Texto para ser fatiado"[0:10])
+
+# output
+Texto para
+```
+Também é possível começar em qualquer índice e suprimir um deles:
+```python
+print("Texto para ser fatiado"[3:10])
+print("Texto para ser fatiado"[3:])
+
+# output
+to para
+to para ser fatiado
+```
+Também é possível definir como será feito o incremente nos índices a fazer a busca:
+```python
+print("Texto para ser fatiado"[0:10:3])
+
+# output
+Ttpa
+```
+---
