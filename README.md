@@ -413,3 +413,49 @@ salvar_arquivo('Curso-Impacta/Aula09-Teste.txt', 'Teste de escrita')
 ler_arquivo('Curso-Impacta/Aula09-Pessoas.txt')
 ```
 ---
+### 10. Estruturas de Dados
+
+![](./Imagens/EstruturasDados.png "Estruturas de Dados em Python")
+
+#### 10.1. Listas
+
+Representada por colchetes ([]) e seus valores são separados por vírgulas.
+
+Exemplos:
+```python
+lista = [1, 2, 3, 4, 5]
+
+# print da lista toda
+print(lista)
+
+# print do segundo item da lista
+print(lista[1])
+
+# Lista com laço
+for x in lista: print(x)
+
+# Output
+[1, 2, 3, 4, 5]
+2
+1
+2
+3
+4
+5
+```
+
+As listas aceitam qualquer valor em Python e são objetos "mutáveis", podemos alterar seus valores.
+
+Exemplo:
+```python
+lista_2 = [1, 'Antonio', 3.14, 'String', True]
+
+print(lista_2)
+lista_2[2] = 'PI'
+print(lista_2)
+
+# output
+
+[1, 'Antonio', 3.14, 'String', True]
+[1, 'Antonio', 'PI', 'String', True]
+```
