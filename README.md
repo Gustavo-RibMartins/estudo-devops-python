@@ -493,3 +493,26 @@ print(s)
 ```
 
 #### 10.4. Dicionários
+
+Permite armazenar os valores com "Chave-Valor". É representado por chaves.
+
+Exemplo:
+```python
+# Criando um dicionario
+d = {}
+print(d)
+
+# Inserindo valores no dicionario
+d['nome'] = 'Marcos'
+d['sobrenome'] = 'Almeida'
+d['data_nascimento'] = '18/05/1979'
+d['telefone'] = '11998765432'
+print(d)
+
+# Output
+
+{'nome': 'Marcos', 'sobrenome': 'Almeida', 'data_nascimento': '18/05/1979', 'telefone': '11998765432'}
+```
+
+Perceba que a estrutura de um dicionário é igual a de um JSON.
+---
