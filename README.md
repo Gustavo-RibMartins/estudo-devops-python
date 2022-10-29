@@ -459,3 +459,10 @@ print(lista_2)
 [1, 'Antonio', 3.14, 'String', True]
 [1, 'Antonio', 'PI', 'String', True]
 ```
+
+#### 10.2. Tuplas
+
+São imutáveis, não podemos alterar seus valores.
+É representada por parênteses ().
+
+Normalmente, usamos tuplas em funções que precisam retornar mais de um valor.
