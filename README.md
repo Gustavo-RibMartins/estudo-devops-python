@@ -466,3 +466,30 @@ São imutáveis, não podemos alterar seus valores.
 É representada por parênteses ().
 
 Normalmente, usamos tuplas em funções que precisam retornar mais de um valor.
+
+#### 10.3. Set
+
+É como uma lista, mas não permite repetições.
+
+Exemplo:
+```python
+s = set()
+print(s)
+
+s.add(1)
+print(s)
+
+s.add(12)
+print(s)
+
+s.add(12)
+print(s)
+
+# output
+
+{1}
+{1, 12}
+{1, 12}
+```
+
+#### 10.4. Dicionários
