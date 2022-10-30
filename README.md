@@ -517,3 +517,20 @@ print(d)
 Perceba que a estrutura de um dicionário é igual a de um JSON.
 
 ---
+### 11. Orientação a Objetos
+
+![](./Imagens/OrientObjetos.png)
+
+Em Python, os atributos da classe podem ser declarados em tempo de execução.
+Exemplo:
+```python
+# Definição da classe
+class Pessoa(object):
+    pass #classe vazia
+
+# Código
+from pessoas import Pessoa
+
+p = Pessoa()
+p.nome = "João"
+```
