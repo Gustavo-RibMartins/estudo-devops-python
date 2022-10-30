@@ -548,3 +548,7 @@ p.nome = "João"
  ```bash
  pip freeze
  ```
+ ---
+### 13. Web Service
+
+O Python pode consumir serviços web usando a biblioteca *requests* e há um serviço web de CEPs que pode ser usado para estudos: https://viacep.com.br/.
