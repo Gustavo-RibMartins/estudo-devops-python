@@ -534,3 +534,17 @@ from pessoas import Pessoa
 p = Pessoa()
 p.nome = "João"
 ```
+---
+### 12. Gerenciando o Ambiente
+
+ - pip (instalador de pacotes)
+ - virtualenv: cria ambientes virtuais isoaldos que suportam configurações específicas para cada projeto.
+
+ ```bash
+ pip instal virtualenv
+ ```
+
+ Para exibir as configurações do virtual env:
+ ```bash
+ pip freeze
+ ```
